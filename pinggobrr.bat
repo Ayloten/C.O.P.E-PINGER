@@ -13,7 +13,7 @@ echo enter da username m8
 echo ________________
 SET /P UUWORD=:
 IF %UUWORD%==getpwnd GOTO passask
-IF NOT %UUWORD%==2 GOTO main
+IF NOT %UUWORD%==2 GOTO usernameask
 
 :passask     
 echo ____________________                                                                           
